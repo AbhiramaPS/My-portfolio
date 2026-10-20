@@ -42,14 +42,14 @@ A premium, modern, responsive single-page developer portfolio built with React a
 This project is ready for Vercel deployment.
 1. Push your code to a GitHub repository.
 2. Connect the repository to Vercel.
-3. Vercel will automatically detect Vite and deploy the project using the `npm run build` command.
+3. Vercel will automatically detect Vite and deploy the project using the \`npm run build\` command.
 
 ## ✍️ Customization Guide
 
-- **Personal Details**: Update content in `App.jsx` and individual components in `src/components/`.
-- **Projects**: To update the 4 project cards, edit `src/data/projects.js`.
-- **Profile Photo**: Replace the placeholder in `src/components/Hero.jsx` with an `<img>` tag pointing to your photo.
-- **Colors**: Modify the CSS variables in `src/styles/global.css`.
+- **Personal Details**: Update content in \`App.jsx\` and individual components in \`src/components/\`.
+- **Projects**: To update the 4 project cards, edit \`src/data/projects.js\`.
+- **Profile Photo**: Replace the placeholder in \`src/components/Hero.jsx\` with an \`<img>\` tag pointing to your photo.
+- **Colors**: Modify the CSS variables in \`src/styles/global.css\`.
 
 ## 📄 License
 MIT
