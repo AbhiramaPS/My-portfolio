@@ -1,6 +1,6 @@
 import React from 'react';
 import { projects } from '../data/projects';
-import { ExternalLink, Github } from 'lucide-react';
+import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 const Projects = () => {
   return (
@@ -89,7 +89,7 @@ const Projects = () => {
                     gap: '0.4rem',
                     color: 'var(--accent-color)'
                   }}>
-                    View Project <ExternalLink size={16} />
+                    View Project <FaExternalLinkAlt size={16} />
                   </a>
                   <a href={project.source} target="_blank" rel="noopener noreferrer" style={{
                     display: 'flex',
@@ -97,7 +97,7 @@ const Projects = () => {
                     gap: '0.4rem',
                     color: 'var(--text-muted)'
                   }}>
-                    Source Code <Github size={16} />
+                    Source Code <FaGithub size={16} />
                   </a>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin } from 'lucide-react';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const Header = () => {
   return (
@@ -26,10 +26,10 @@ const Header = () => {
         </div>
         <div style={{ display: 'flex', gap: '1.5rem' }}>
           <a href="https://github.com/AbhiramaPS" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style={{ color: 'var(--text-main)' }}>
-            <Github size={24} />
+            <FaGithub size={24} />
           </a>
           <a href="https://www.linkedin.com/in/abhirama-p-s-602859331/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{ color: 'var(--text-main)' }}>
-            <Linkedin size={24} />
+            <FaLinkedinIn size={24} />
           </a>
         </div>
       </div>

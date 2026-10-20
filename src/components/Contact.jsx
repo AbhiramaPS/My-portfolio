@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Github, Linkedin } from 'lucide-react';
+import { FaEnvelope, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const Contact = () => {
   const [formStatus, setFormStatus] = useState('');
@@ -37,7 +37,7 @@ const Contact = () => {
               transition: 'var(--transition-fast)'
             }} onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-color)'}
             onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-main)'}>
-              <Mail size={24} className="accent" />
+              <FaEnvelope size={24} className="accent" />
               <span>abhiramapadaru@gmail.com</span>
             </a>
             <a href="https://github.com/AbhiramaPS" target="_blank" rel="noopener noreferrer" style={{
@@ -49,7 +49,7 @@ const Contact = () => {
               transition: 'var(--transition-fast)'
             }} onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-color)'}
             onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-main)'}>
-              <Github size={24} className="accent" />
+              <FaGithub size={24} className="accent" />
               <span>github.com/AbhiramaPS</span>
             </a>
             <a href="https://www.linkedin.com/in/abhirama-p-s-602859331/" target="_blank" rel="noopener noreferrer" style={{
@@ -61,7 +61,7 @@ const Contact = () => {
               transition: 'var(--transition-fast)'
             }} onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-color)'}
             onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-main)'}>
-              <Linkedin size={24} className="accent" />
+              <FaLinkedinIn size={24} className="accent" />
               <span>linkedin.com/in/abhirama-p-s-602859331/</span>
             </a>
           </div>
